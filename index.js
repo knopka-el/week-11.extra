@@ -1,5 +1,5 @@
 function calculateSquare() {
-    let num = document.getElementById("number").value;
-    let square = num * num;
+    const num = document.getElementById("number").value;
+    const square = num * num;
     document.getElementById("disabled").value = square;
 }
